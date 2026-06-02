@@ -1,0 +1,6 @@
+{
+  "name": "Cine21 Movie Tracker",
+  "description": "An immersive cinematic movie tracker to rate, rate-distribute, and configure taste settings inspired by Seoul Cine21 design system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

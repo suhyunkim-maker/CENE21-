@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Cormorant Garamond", "Georgia", serif;
+  --font-serif: "Cormorant Garamond", "Georgia", serif;
+
+  --color-brand-primary: #C5A059;
+  --color-brand-secondary: #E5E5E5;
+  --color-brand-bg: #0A0A0A;
+  --color-brand-surface: #111111;
+  --color-brand-surface-low: #181818;
+  --color-brand-surface-high: #242424;
+  --color-brand-text: #E5E5E5;
+  --color-brand-text-muted: #A3A3A3;
+}
+
+/* Custom Scrollbar styled for Sophisticated Dark theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+::-webkit-scrollbar-thumb {
+  background: #242424;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A059;
+}
+
+/* Sophisticated Dark Glass panel classes */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.poster-glow:hover {
+  box-shadow: 0 0 25px rgba(197, 160, 89, 0.35);
+}
+
+.tracking-extra {
+  letter-spacing: 0.3em;
+}
